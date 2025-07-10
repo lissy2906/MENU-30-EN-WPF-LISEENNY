@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="EjerciciosWPFLissy.Ejercicio21"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="200" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 21: Vocal o consonante" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtLetra" Margin="0,10" Width="100" MaxLength="1"/>
+        <Button Content="Verificar" Width="100" Click="BtnVerificar_Click"/>
+        <TextBlock x:Name="txtResultado" Margin="0,15,0,0" FontWeight="SemiBold"/>
+    </StackPanel>
+</UserControl>
+

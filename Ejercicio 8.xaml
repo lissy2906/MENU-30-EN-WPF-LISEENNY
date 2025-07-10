@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="EjerciciosWPFLissy.Ejercicio8"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="280" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 8: Mayor de tres números" FontWeight="Bold" FontSize="16"/>
+
+        <TextBox x:Name="txtNum1" Margin="0,10"/>
+        <TextBox x:Name="txtNum2" Margin="0,10"/>
+        <TextBox x:Name="txtNum3" Margin="0,10"/>
+
+        <Button Content="Calcular mayor" Width="150" Margin="0,10" Click="BtnCalcular_Click"/>
+        <TextBlock x:Name="txtResultado" FontWeight="SemiBold" Margin="0,10"/>
+    </StackPanel>
+</UserControl>
+

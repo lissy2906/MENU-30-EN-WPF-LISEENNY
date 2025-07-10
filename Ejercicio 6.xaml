@@ -1,0 +1,18 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="EjerciciosWPFLissy.Ejercicio6"
+             Height="200" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 6: Par o impar" FontWeight="Bold" FontSize="16"/>
+
+        <StackPanel Orientation="Horizontal" Margin="0,10">
+            <TextBlock Width="150"><Run Text="Número entero:"/></TextBlock>
+            <TextBox x:Name="txtNumero" Width="200"/>
+        </StackPanel>
+
+        <Button Content="Evaluar" Width="100" Margin="0,10" Click="BtnEvaluar_Click"/>
+        <TextBlock x:Name="txtResultado" FontWeight="SemiBold" Margin="0,10"/>
+    </StackPanel>
+</UserControl>
+

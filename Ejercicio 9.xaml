@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="EjerciciosWPFLissy.Ejercicio9"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="200" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 9: Cuadrado de un número" FontWeight="Bold" FontSize="16"/>
+
+        <TextBox x:Name="txtNumero" Margin="0,10"/>
+        <Button Content="Calcular" Width="100" Click="BtnCalcular_Click"/>
+        <TextBlock x:Name="txtResultado" Margin="0,15,0,0" FontWeight="SemiBold"/>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="EjerciciosWPFLissy.Ejercicio28"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="180" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 28: Fahrenheit a Celsius" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtF" Margin="0,10"/>
+        <Button Content="Convertir" Click="BtnConvertir_Click"/>
+        <TextBlock x:Name="txtResultado" Margin="10,10,0,0"/>
+    </StackPanel>
+</UserControl>
+

@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="EjerciciosWPFLissy.Ejercicio22"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="200" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ejercicio 22: Día de la semana" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtDia" Margin="0,10"/>
+        <Button Content="Mostrar" Width="100" Click="BtnMostrar_Click"/>
+        <TextBlock x:Name="txtResultado" Margin="0,10" FontWeight="SemiBold"/>
+    </StackPanel>
+</UserControl>
+

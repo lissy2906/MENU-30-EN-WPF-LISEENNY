@@ -1,0 +1,63 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:EjerciciosWPFLissy" xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="EjerciciosWPFLissy.MainWindow"
+        Title="Menú de Ejercicios WPF" Height="400" Width="600">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Ejercicios" Height="13" Width="79" FontFamily="Arial Rounded MT Bold" Foreground="Black" FontSize="10">
+                <MenuItem Header="Ejercicio 1" Click="Ejercicio1_Click"/>
+                <MenuItem Header="Ejercicio 2" Click="Ejercicio2_Click"/>
+                <MenuItem Header="Ejercicio 3" Click="Ejercicio3_Click"/>
+                <MenuItem Header="Ejercicio 4" Click="Ejercicio4_Click"/>
+                <MenuItem Header="Ejercicio 5" Click="Ejercicio5_Click"/>
+                <MenuItem Header="Ejercicio 6" Click="Ejercicio6_Click"/>
+                <MenuItem Header="Ejercicio 7" Click="Ejercicio7_Click"/>
+                <MenuItem Header="Ejercicio 8" Click="Ejercicio8_Click"/>
+                <MenuItem Header="Ejercicio 9" Click="Ejercicio9_Click"/>
+                <MenuItem Header="Ejercicio 10" Click="Ejercicio10_Click"/>
+                <MenuItem Header="Ejercicio 11" Click="Ejercicio11_Click"/>
+                <MenuItem Header="Ejercicio 12" Click="Ejercicio12_Click"/>
+                <MenuItem Header="Ejercicio 13" Click="Ejercicio13_Click"/>
+                <MenuItem Header="Ejercicio 14" Click="Ejercicio14_Click"/>
+                <MenuItem Header="Ejercicio 15" Click="Ejercicio15_Click"/>
+                <MenuItem Header="Ejercicio 16" Click="Ejercicio16_Click"/>
+                <MenuItem Header="Ejercicio 17" Click="Ejercicio17_Click"/>
+                <MenuItem Header="Ejercicio 18" Click="Ejercicio18_Click"/>
+                <MenuItem Header="Ejercicio 19" Click="Ejercicio19_Click"/>
+                <MenuItem Header="Ejercicio 20" Click="Ejercicio20_Click"/>
+                <MenuItem Header="Ejercicio 21" Click="Ejercicio21_Click"/>
+                <MenuItem Header="Ejercicio 22" Click="Ejercicio22_Click"/>
+                <MenuItem Header="Ejercicio 23" Click="Ejercicio23_Click"/>
+                <MenuItem Header="Ejercicio 24" Click="Ejercicio24_Click"/>
+                <MenuItem Header="Ejercicio 25" Click="Ejercicio25_Click"/>
+                <MenuItem Header="Ejercicio 26" Click="Ejercicio26_Click"/>
+                <MenuItem Header="Ejercicio 27" Click="Ejercicio27_Click"/>
+                <MenuItem Header="Ejercicio 28" Click="Ejercicio28_Click"/>
+                <MenuItem Header="Ejercicio 29" Click="Ejercicio29_Click"/>
+                <MenuItem Header="Ejercicio 30" Click="Ejercicio30_Click"/>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="ContentGrid" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="530*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/Fondo.jpg" Stretch="Fill"/>
+            </Grid.Background>
+
+            <Rectangle Fill="Black" Opacity="0.2"
+               Panel.ZIndex="0" Grid.ColumnSpan="3"/>
+
+            <TextBlock Text="HELLO"
+               FontSize="24" FontWeight="Bold"
+               Foreground="Black"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Panel.ZIndex="1" Height="35" Width="90" FontFamily="Cooper Black" Margin="194,153,0,0" Grid.Column="2"/>
+        </Grid>
+    </DockPanel>
+</Window>

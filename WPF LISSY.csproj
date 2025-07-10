@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4095B9A7-FDF6-4838-A04A-11E4B8648543}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WPF_13</RootNamespace>
+    <AssemblyName>WPF 13</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BoolToVisibilityConverter.cs" />
+    <Compile Include="Ejercicio 1.xaml.cs">
+      <DependentUpon>Ejercicio 1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 2.xaml.cs">
+      <DependentUpon>Ejercicio 2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 3.xaml.cs">
+      <DependentUpon>Ejercicio 3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 4.xaml.cs">
+      <DependentUpon>Ejercicio 4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 5.xaml.cs">
+      <DependentUpon>Ejercicio 5.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Ejercicio 6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio25.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio26.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio27.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio28.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio30.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ejercicio 6.xaml.cs">
+      <DependentUpon>Ejercicio 6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 7.xaml.cs">
+      <DependentUpon>Ejercicio 7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 8.xaml.cs">
+      <DependentUpon>Ejercicio 8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio 9.xaml.cs">
+      <DependentUpon>Ejercicio 9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio10.xaml.cs">
+      <DependentUpon>Ejercicio10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio11.xaml.cs">
+      <DependentUpon>Ejercicio11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio12.xaml.cs">
+      <DependentUpon>Ejercicio12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio13.xaml.cs">
+      <DependentUpon>Ejercicio13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio14.xaml.cs">
+      <DependentUpon>Ejercicio14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio15.xaml.cs">
+      <DependentUpon>Ejercicio15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio16.xaml.cs">
+      <DependentUpon>Ejercicio16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio17.xaml.cs">
+      <DependentUpon>Ejercicio17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio18.xaml.cs">
+      <DependentUpon>Ejercicio18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio19.xaml.cs">
+      <DependentUpon>Ejercicio19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio20.xaml.cs">
+      <DependentUpon>Ejercicio20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio21.xaml.cs">
+      <DependentUpon>Ejercicio21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio22.xaml.cs">
+      <DependentUpon>Ejercicio22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio23.xaml.cs">
+      <DependentUpon>Ejercicio23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio24.xaml.cs">
+      <DependentUpon>Ejercicio24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio25.xaml.cs">
+      <DependentUpon>Ejercicio25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio26.xaml.cs">
+      <DependentUpon>Ejercicio26.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio27.xaml.cs">
+      <DependentUpon>Ejercicio27.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio28.xaml.cs">
+      <DependentUpon>Ejercicio28.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio29.xaml.cs">
+      <DependentUpon>Ejercicio29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio30.xaml.cs">
+      <DependentUpon>Ejercicio30.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Ejercicio 1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ejercicio 5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Fondo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
